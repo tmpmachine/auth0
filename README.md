@@ -3,7 +3,7 @@ Pure JavaScript (client side) Google Identity web authorization library.
 
 # Method
 - isAuthenticated() `bool` : Returns `true` if user has previously signed in.
-- authenticate() : Execute authorization flow (popup).
+- authenticate() `promise`: Execute authorization flow (popup). Returns promise with fulfilled only state.
 - getAccessToken() `string` : Get access token
 - revoke() : Delete authorization data (access token, email hint, token expiration). Not actually revoking the token.
 
