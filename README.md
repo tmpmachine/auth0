@@ -1,10 +1,10 @@
 # auth0
-Pure JavaScript (client side) Google Identity web authorization library. (2023)
+Pure JavaScript (client side) Google Identity web authorization library.
 
 # Method
 - isAuthenticated() `bool` : Returns `true` if user has previously signed in.
 - authenticate() : Execute authorization flow (popup).
-- getAccessToken() : Get access token
+- getAccessToken() `string` : Get access token
 - revoke() : Delete authorization data (access token, email hint, token expiration). Not actually revoking the token.
 
 # Initialization
@@ -68,3 +68,7 @@ async function exampleRequest() {
   
 }
 ```
+
+
+# Articles
+- [Authorizing for Web](https://developers.google.com/identity/oauth2/web/guides/overview)
