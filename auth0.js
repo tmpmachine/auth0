@@ -87,7 +87,7 @@ window.auth0 = (function () {
     })
     .then(r => r.json())
     .then((data) => {
-      authData.exp = parseInt(data.exp) + new Date().getTime();
+      authData.exp = (parseInt(data.expires_in) - 120) * 1000 + new Date().getTime();
       authData.email = data.email;
       storeData();
       resolveAll();
