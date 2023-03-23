@@ -4,14 +4,14 @@ Pure JavaScript (client side) Google Identity web authorization library.
 # Installation (CDN jsDelivr)
 Include in your application :
 ```html
-<script src="https://cdn.jsdelivr.net/gh/tmpmachine/auth0@v1.0.0/auth0.js"></script>
+<script src="https://cdn.jsdelivr.net/gh/tmpmachine/auth0@v1.0.1/auth0.js"></script>
 ```
 ```
 https://cdn.jsdelivr.net/gh/tmpmachine/auth0@v1.0.0/auth0.js
 ```
 or use minified version :
 ```html
-<script src="https://cdn.jsdelivr.net/gh/tmpmachine/auth0@v1.0.0/auth0.min.js"></script>
+<script src="https://cdn.jsdelivr.net/gh/tmpmachine/auth0@v1.0.1/auth0.min.js"></script>
 ```
 ```
 https://cdn.jsdelivr.net/gh/tmpmachine/auth0@v1.0.0/auth0.min.js
