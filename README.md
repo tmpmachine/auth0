@@ -90,6 +90,10 @@ async function exampleRequest() {
 }
 ```
 
+# Important Notes!
+You might need to customize few things, unless you're okay with below conditions :
+- Calling `revoke()` doesn't actually revoke the token. It simply remove the data from `localStorage`.
+- This library use fixed key `auth0-NDUxMTg1MA` for storing auth data into `localStorage`.
 
 # Articles
 - [Authorizing for Web](https://developers.google.com/identity/oauth2/web/guides/overview)
