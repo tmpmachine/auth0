@@ -26,12 +26,17 @@ https://cdn.jsdelivr.net/gh/tmpmachine/auth0@v1.0.1/auth0.min.js
 # Initialization
 Configure your client.
 ```js
-window.auth0.configure({
-  clientId: 'xxxxx.apps.googleusercontent.com',
-  scopes: [
-    'https://www.googleapis.com/auth/userinfo.profile',
-  ],
-});
+<script src="https://accounts.google.com/gsi/client" async defer></script>
+<script src="https://cdn.jsdelivr.net/gh/tmpmachine/auth0@v1.0.1/auth0.min.js"></script>
+
+<script>
+  window.auth0.configure({
+    clientId: 'xxxxx.apps.googleusercontent.com',
+    scopes: [
+      'https://www.googleapis.com/auth/userinfo.profile',
+    ],
+  });
+</script>
 ```
 
 # Usage Examples
